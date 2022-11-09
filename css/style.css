@@ -20,22 +20,18 @@ a{
 }
 
 header{
-    padding-top: 1%;
     position: fixed;
     top: 0px;
     background-color: #27315d;
-    height: 11vh;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 0 0 18px #56A3A6,
-                0 0 0 34px #8dc482;
 }
 
 section{
     position: relative;
     height: calc(100vh - 3rem);
     width: 80%;
-    margin: 0 auto;
+    margin: 5% auto;
 }
 
 .container{
@@ -64,7 +60,7 @@ section{
 
 .logo{
     color: #fff;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -286,7 +282,6 @@ section{
         height: calc(100vh - 3rem);
         top: 3rem;
         left: 0;
-        height: 9vh;
         width: 100%;
         background-color: #27315d;
         flex-direction: column;
