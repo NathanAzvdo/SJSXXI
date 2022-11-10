@@ -120,10 +120,10 @@
     font-style: bold;
     font-size: 13pt;
 }
-ul{
+section ul{
     margin-left: 15%;
 }
-li{
+section li{
     margin-bottom: 1%;
 }
 @media(max-width:970px){

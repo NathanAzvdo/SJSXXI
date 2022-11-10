@@ -10,7 +10,22 @@ body{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
-
+#cor2{
+    background-color: #53a3a6;
+    position: fixed;
+    top: 70px;
+    width: 100vw;
+    height: 10px;
+    z-index: 1;
+}
+#cor1{
+    background-color: #8dc482;
+    position: fixed;
+    top: 80px;
+    width: 100vw;
+    height: 10px;
+    z-index: 1;
+}
 ul{
     list-style: none;
 }
@@ -31,7 +46,7 @@ section{
     position: relative;
     height: calc(100vh - 3rem);
     width: 80%;
-    margin: 5% auto;
+    margin: 100px 0px 0px 0px;
 }
 
 .container{
@@ -40,6 +55,7 @@ section{
     margin: 0 auto;
     display: flex;
     position: relative;
+    height: 70px;
 }
 
 .logo-container{
@@ -55,6 +71,7 @@ section{
 
 .nav-links{
     flex: 2;
+    margin-top: 10px;
 }
 
 
@@ -305,6 +322,7 @@ section{
     .nav-links{
         flex: initial;
         width: 100%;
+        margin-top: 70px;
     }
 
     .nav-links > ul{
