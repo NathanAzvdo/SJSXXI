@@ -11,7 +11,8 @@ body{
     overflow-x: hidden;
 }
 #cor2{
-    background-color: #53a3a6;
+    background-color: #481a93;
+    /*background-color: #53a3a6;*/
     position: fixed;
     top: 70px;
     width: 100vw;
