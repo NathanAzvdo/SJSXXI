@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&display=swap");
-body {
-  overflow-x: hidden;
-}
+
 .main-cont {
   border-left: solid 5px #d25751;
 }
@@ -16,7 +14,7 @@ body {
   margin-top: 15%;
 }
 .title-unid {
-  font-family: "Lexend Deca", sans-serif;
+  font-family: ""Lexend Deca", sans-serif;
   text-align: center;
   font-size: 3rem;
   color: #27315d;
