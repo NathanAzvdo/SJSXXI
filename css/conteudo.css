@@ -153,6 +153,9 @@ section li {
     margin: 3% 1.7% 3.5%;
     font-size: medium;
   }
+  table{
+    font-size: medium;
+  }
   .pics img {
     width: 100%;
     margin: 0 auto;
@@ -218,6 +221,14 @@ section li {
   }
 }
 @media (max-width: 400px) {
+  
+  th,
+  td {
+  padding: 0;
+  }
+  table{
+    font-size: small;
+  }
   .unid {
     margin-top: 27%;
   }
@@ -244,7 +255,7 @@ table {
   max-width: 90%;
 }
 .men {
-  width: 15%;
+  max-width: 15%;
 }
 th,
 td {
@@ -252,7 +263,7 @@ td {
 }
 .title-table {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: xx-large;
   font-style: bold;
-  margin-top: 2rem;
+  margin-top: 2em;
 }
