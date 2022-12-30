@@ -234,3 +234,25 @@ section li {
     font-size: small;
   }
 }
+table,
+th,
+td {
+  border: 1px solid;
+}
+table {
+  margin: 0 auto;
+  max-width: 90%;
+}
+.men {
+  width: 15%;
+}
+th,
+td {
+  padding: 0.2em;
+}
+.title-table {
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: bold;
+  margin-top: 2rem;
+}
