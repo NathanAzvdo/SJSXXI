@@ -253,6 +253,9 @@ table {
   margin: 0 auto;
   max-width: 90vw;
 }
+.table-limit{
+  width: 90%;
+}
 .men {
   max-width: 15%;
 }
