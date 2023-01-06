@@ -1,0 +1,39 @@
+.title-princ{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 3rem;
+    color: #d25751;
+    margin: 3em 0 0;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 3em auto;
+}
+.card-sum{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px 0 rgba( 0, 0, 0, 0.15 );
+    margin: 1.5em auto;
+    height: 800px;
+    transition: .5s;
+    background: rgba( 141, 196, 130, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+}
+.card-sum:hover{
+    box-shadow: 0 3px 12px 0 rgba( 0, 0, 0, 0.25 );
+    transform: scale(1.005);
+}
+@media (max-width: 920px){
+    .title-princ{
+        font-size: 2rem;
+        margin: 4em 0 2em
+    }
+    .cards{
+        
+        width: 96%;
+    }
+}
