@@ -251,10 +251,11 @@ td {
 }
 table {
   margin: 0 auto;
-  max-width: 90vw;
+  max-width: 60vw;
 }
 .table-limit{
-  width: 90%;
+  max-width: 85%;
+  margin: 0 auto;
 }
 .men {
   max-width: 15%;
