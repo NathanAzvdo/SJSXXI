@@ -153,9 +153,17 @@ section li {
     margin: 3% 1.7% 3.5%;
     font-size: medium;
   }
-  table {
-    font-size: medium;
+  .table-limit thead {
+    display: none;
   }
+  .table-limit tr {
+    border-bottom: 1px solid #000;
+  }
+  .table-limit td {
+    border: 1px solid #000;
+  }
+  
+
   .pics img {
     width: 100%;
     margin: 0 auto;
@@ -172,6 +180,7 @@ section li {
     margin: 3% 1.7% 3.5%;
   }
 }
+  
 @media (max-width: 800px) {
   .unid {
     margin-top: 22%;
