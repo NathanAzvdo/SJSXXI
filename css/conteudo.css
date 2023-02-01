@@ -153,16 +153,7 @@ section li {
     margin: 3% 1.7% 3.5%;
     font-size: medium;
   }
-  .table-limit thead {
-    display: none;
-  }
-  .table-limit tr {
-    border-bottom: 1px solid #000;
-  }
-  .table-limit td {
-    border: 1px solid #000;
-  }
-  
+ 
 
   .pics img {
     width: 100%;
@@ -230,13 +221,7 @@ section li {
   }
 }
 @media (max-width: 400px) {
-  th,
-  td {
-    padding: 0;
-  }
-  table {
-    font-size: small;
-  }
+ 
   .unid {
     margin-top: 27%;
   }
@@ -253,29 +238,122 @@ section li {
     font-size: small;
   }
 }
-table,
-th,
-td {
-  border: 1px solid;
-}
-table {
-  margin: 0 auto;
-  max-width: 60vw;
-}
-.table-limit{
-  max-width: 85%;
-  margin: 0 auto;
-}
 .men {
   max-width: 15%;
 }
-th,
-td {
-  padding: 0.2em;
+
+table {
+
+  border: 1px solid #eee;
+  border-collapse: collapse;
+  text-align: left;
+  width: 80%;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
 }
-.title-table {
-  text-align: center;
-  font-size: xx-large;
-  font-style: bold;
-  margin-top: 2em;
+
+table thead th {
+
+  padding: 10px;
+  font-size: 1em;
+  color: #000;
+  font-weight: 600;
+}
+
+table tbody tr td {
+
+  display: table-cell;
+  font-weight: 400;
+  padding: 10px;
+  text-align: left;
+  position: relative;
+}
+
+table tbody tr {
+
+  border: none;
+  display: table-row;
+}
+
+table tbody tr:nth-child(odd) {
+
+  background: #f2f2f2;
+}
+
+table tbody tr td button {
+
+  display: inline-block;
+  padding: 10px 15px;
+  position: initial;
+  transform: translate(0);
+  width: auto;
+}
+
+table tbody tr td button {
+
+  background: #4CAF50;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(34, 34, 34, 0.2);
+  color: #fff;
+  font-weight: 700;;
+  padding: 10px 0;
+  width: 100%;
+}
+
+table thead {
+
+  display: table-header-group;
+  font-weight: 500;
+}
+
+
+table tbody tr td:before {
+
+  display: none;
+}
+
+table tbody tr td button:hover, table tbody tr td button:focus {
+
+  background: #a795fe;
+  cursor: pointer;
+}
+
+@media all and (max-width: 800px) {
+
+  table tbody tr td {
+
+      display: block;
+      text-align: right;
+  }
+
+  table tbody tr td:before {
+
+      content: attr(data-title);
+      position: absolute;
+      left: 15px;
+      display: block;
+      font-weight: 600;
+      font-size: 1em;
+  }
+
+  table {
+
+      border: none;
+  }
+
+  table thead {
+
+      display: none;
+  }
+
+  table tbody tr {
+
+      margin-bottom: 10px;
+      display: block;
+      border: 1px solid #dad6eb;
+  }
+
+
 }
