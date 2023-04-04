@@ -1,63 +1,123 @@
 .title-princ{
     font-family: "Lexend Deca", sans-serif;
-    font-size: 3rem;
+    font-size: xx-large;
     color: #d25751;
     margin-top: 3em;
     margin-bottom: 0px;
     text-align: center;
 }
-
-.cards{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin: 1em auto;
+.card {
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    margin: 2vh 0.5vw;
+    text-align: center;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .card:hover {
+    transform: scale(1.01);
+  }
+  .cards {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .title-card {
+    font-size:x-large;
+    color: #d25751;
+    margin-top: 50%;
+    font-family: "Lexend Deca", sans-serif;
+  }
+.cards:hover .card:not(:hover){
+    opacity: .8;
 }
-.card-sum{
-    width: 100%;
-    border-radius: 15px;
-    box-shadow: 0 4px 16px 0 rgba( 0, 0, 0, 0.15 );
-    margin: 1.5em auto;
-    height: 800px;
-    transition: .8s;
-    background: rgba( 141, 196, 130, 0.25 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-}
-.card-sum a{
+.title-down{
+    color: #aa2a24;
+    font-size: xx-large;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Lexend Deca", sans-serif;
+  }
+  .download{
+    text-align: center;
+    margin: 60px;
+  }
+  .download button{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 30px;
+    background-color: #d25751;
+    border: none;
+    transition: .5s;
+  }
+  .download button:hover{
+    transform: scale(1.05);
+  }
+  .download a{
+    color:#fff;
+    font-size: large;
+    font-family: "Lexend Deca", sans-serif;
     text-decoration: none;
-    color: #27315d;
-    font-size: larger;
-    transition: .3s;
-    
-}
-.card-sum ul{
-    transition: .3s;
-    margin: 2em 4em ;
-}
-.card-sum li{
-    padding: .5em;
-}
-.card-sum a:hover{
-    color:#d25751;
-}
-.card-sum:hover{
-    box-shadow: 0 3px 12px 0 rgba( 0, 0, 0, 0.25 );
-    transform: scale(1.002);
-}
+  }
 @media (max-width: 920px){
     .title-princ{
-        font-size: 2rem;
-        margin: 4em 0 2em
+        font-size: x-large;
+        margin: 4em 0 2em 0em;
     }
-    .cards{
-        
-        width: 96%;
-    }
+    .download{
+        text-align: center;
+        margin: 20px;
+      }
+      .download button{
+        width: 280px;
+        height: 40px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 10px;
+        background-color: #d25751;
+        border: none;
+        transition: .5s;
+      }
+
     
 }
-@media (max-width:450px){
+@media (max-width:700px){
+    .card {
+        width: 500px;
+        height: 550px;
+      }
+}
+@media (max-width:550px){
+    .card {
+        width: 400px;
+        height: 430px;
+      }
     .title-princ{
-        font-size: 1.4rem;
+        font-size: larger;
+        margin: 5em 0 1em 0em;
     }
+}
+@media (max-width:450px){
+    .card {
+        width: 340px;
+        height: 380px;
+      }
+      .download button{
+        width: 200px;
+        height: 30px;
+        border-radius: 70px;
+      }
+    .title-down{
+        font-size: large;
+    }
+}
+@media (max-width:350px){
+    .card {
+        width: 250px;
+        height: 300px;
+      }
 }

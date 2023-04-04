@@ -320,15 +320,6 @@ table tbody tr td button:hover, table tbody tr td button:focus {
   background: #a795fe;
   cursor: pointer;
 }
-.title-down{
-  color: #aa2a24; 
-  font-size: 2.2rem;
-  text-align: center;
-  margin: 0 auto;
-}
-.download{
-  text-align: center;
-}
 @media all and (max-width: 800px) {
 
   table tbody tr td {
