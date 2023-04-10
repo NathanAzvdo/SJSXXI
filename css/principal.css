@@ -64,11 +64,11 @@
   }
 	.slider {
 		width: 100vw;
-		height: 90.5vh;
+		height: 650px;
 		position: relative;
 		background: #242424;
 		overflow: hidden;
-		margin: 5.65em auto 0;
+		margin: 5.6562em auto 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,6 +128,7 @@
 		align-content: center;
 		justify-content: center;
 		color: #fff;
+    display: none;
 	}
 	@keyframes fade {
 		from {
