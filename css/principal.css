@@ -2,9 +2,8 @@
     font-family: "Lexend Deca", sans-serif;
     font-size: xx-large;
     color: #d25751;
-    margin-top: 1em;
-    margin-bottom: 0px;
     text-align: center;
+    margin: 2em auto;
 }
 .card {
     width: 200px;
@@ -64,12 +63,15 @@
     text-decoration: none;
   }
 	.slider {
-		width: 1200px;
-		height: 600px;
+		width: 100vw;
+		height: 90.5vh;
 		position: relative;
 		background: #242424;
 		overflow: hidden;
-		margin: 8em auto 0;
+		margin: 5.65em auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 	}
 	.slider img {
 		width: 100%;
@@ -81,7 +83,7 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-		animation: fade 1s;
+		animation: fade 1.5s;
 	}
 	.slider .seta {
 		z-index: 10;
@@ -95,7 +97,7 @@
 		height: 1.5rem;
 		font-size: 2.5em;
 		color: cornsilk;
-		opacity: 0.5;
+		opacity: 0.3;
 		transition: opacity 1s;
 	}
 	.slider .seta:hover {
@@ -137,7 +139,6 @@
 	}
 @media(max-width:1250px){
 	.slider {
-		width: 800px;
 		height: 450px;
 	}
 }
@@ -147,7 +148,6 @@
         margin: 4em 0 2em 0em;
     }
 		.slider {
-			width: 650px;
 			height: 350px;
 		}
     .download{
@@ -173,8 +173,7 @@
         height: 550px;
       }
 			.slider {
-				width: 500px;
-				height: 250px;
+				height: 250px
 			}
 }
 @media (max-width:550px){
@@ -187,7 +186,6 @@
         margin: 5em 0 1em 0em;
     }
 		.slider {
-			width: 90vw;
 			height: 200px;
 	
 		}
