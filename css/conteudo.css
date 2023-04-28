@@ -172,6 +172,19 @@ section li {
     margin: 3% 1.7% 3.5%;
   }
 }
+.button-cap{
+  margin: 3em auto;
+  width: 80%;
+  text-align: right;
+}
+.button-cap button{
+  width: 230px;
+  height: 30px;
+  background-color: #a795fe;
+  color: #fff;
+  font-size: large;
+  border-radius:4px ;
+}
   
 @media (max-width: 800px) {
   .unid {
@@ -193,6 +206,9 @@ section li {
   }
   .subtitle {
     font-size: 1.3rem;
+  }
+  .button-cap{
+    text-align: center;
   }
 }
 @media (max-width: 600px) {

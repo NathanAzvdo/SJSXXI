@@ -4,7 +4,7 @@ const dots = document.querySelectorAll(".botao i");
 const leftArrow = document.querySelector(".arrow-left");
 const rightArrow = document.querySelector(".arrow-right");
 let currentIndex = 0;
-let time = 7000;
+let time = 5000;
 const defClass = (startPos, index) => {
   for (let i = startPos; i < imgs.length; i++) {
     imgs[i].style.display = "none";
