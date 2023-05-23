@@ -26,27 +26,28 @@
   font-family: "Lexend Deca", sans-serif;
   font-size: 1.8rem;
   font-style: bold;
-  margin: 4% 2% 4%;
+  margin: 3% 2% 4%;
   color: #101a46;
 }
 .ex {
   background-color: #8dc4823f;
   border-radius: 7px;
-  padding: 2% 5%;
+  padding: 3.5% 5%;
   box-shadow: rgba(0, 0, 0, 0.178) 0px 1px 2px 0px;
 }
-.cel {
-  display: inline-block;
+.cel{
+  float: left;
   color: #ffffff;
   background-color: #d25751;
-  padding: 0.5% 1.6% 0.5% 1.6%;
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 1.2% ;
   border-radius: 50%;
-  margin: 4% 2% 2% 1%;
-  font-size: large;
-  font-weight: bolder;
-  text-align: justify;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
 }
-.ex p {
+.ex p{
   display: inline;
   font-size: larger;
   text-align: justify;
@@ -64,12 +65,13 @@
   font-size: medium;
 }
 .cel2 {
-  display: inline-block;
+  float: left;
+  width: 2rem;
+  height: 2rem;
   color: #ffffff;
   background-color: #56a3a6;
-  padding: 0.4% 0.3% 0.4% 0.3%;
   border-radius: 50%;
-  margin: 2% 2% 4% 1%;
-  font-size: small;
-  text-align: justify;
+  margin-right: 1%;
+  font-size: medium;
+  text-align: center;
 }

@@ -1,36 +1,111 @@
-.title-princ{
-    font-family: "Lexend Deca", sans-serif;
-    font-size: xx-large;
-    color: #d25751;
-    text-align: center;
-    margin: 2em auto;
+.cards{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 3% 2.5%;
+  
 }
-.card {
-    width: 200px;
-    height: 250px;
-    display: inline-block;
-    margin: 2vh 0.5vw;
-    text-align: center;
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
-    border-radius: 10px;
-    transition: 0.3s;
-    cursor: pointer;
-  }
-  .card:hover {
-    transform: scale(1.01);
-  }
-  .cards {
-    margin: 0 auto;
-    text-align: center;
-  }
-  .title-card {
-    font-size:x-large;
-    color: #d25751;
-    margin-top: 50%;
-    font-family: "Lexend Deca", sans-serif;
-  }
-.cards:hover .card:not(:hover){
-    opacity: .5;
+.card{
+  display: inline-block ;
+  position: relative;
+  width: 16%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.cont-card{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-self: center;
+  font-family: 'Poppins' 'Arial';
+  
+}
+.card-pic{
+  position: absolute;
+  display: block;
+  width: 32%;
+  left: 35%;
+  top: 20%;
+}
+
+.info-card{
+  width: 100%;
+  height: 100%;
+  background-color: #aa2b2400;
+  position: absolute;
+  top: 65%;
+  transition: all 0.5s;
+
+}
+.title-card{
+  font-size: 1.2rem;
+  transition: margin-top 1s, color 0.3s;
+}
+.sub-card{
+  width: 100%;
+  margin: 4% 0;
+  visibility: hidden;
+}
+.sub-card p{
+  visibility: hidden;
+  margin: 0% 2%;
+  color: #fff;
+}
+.card:hover .info-card{
+  width: 100%;
+  top: 0%;
+  background-color: #aa2a24;
+  
+}
+.card:hover .info-card p{
+  visibility: visible;
+}
+.card:hover .sub-card{
+  position: absolute;
+  visibility: visible;
+  bottom: 15%;
+  
+}
+.card:hover .title-card{
+margin-top: 20%;
+color: #fff;
+font-size: 1.3rem;
+}
+.sub-card button{
+  border-radius: 20px;
+  position: relative;
+  border: none;
+  text-align: left;
+  padding: 5px 10px;
+  width: 78%;
+  height: 6ex;
+  background-color: transparent;
+  font-family: 'Poppins' 'Arial';
+  border: #fff 1.5px solid;
+}
+.sub-card button a{
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+  
+}
+.sub-card div#arrow-button{
+  display: flex;
+  width: 18%;
+  margin-left: 7%;
+} 
+
+.card:after {
+  position: relative;
+  content: "";
+  display: block;
+  padding-bottom: 92%;
 }
 .title-down{
     color: #aa2a24;
@@ -64,7 +139,7 @@
   }
 	.slider {
 		width: 100vw;
-		height: 650px;
+		height: 500px;
 		position: relative;
 		background: #242424;
 		overflow: hidden;

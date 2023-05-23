@@ -32,23 +32,32 @@
   background: #56a3a656;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 1% 5% 5%;
+  padding: 1% 2%;
+}
+.glass-effect2 {
+  background: #f8d16fa1;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 1% 5% 5%;
+}
+.glass-effect-ref {
+  background: #a3e29681;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   margin: 1% 2% 5%;
   padding: 1% 2%;
 }
-.glass-effect2 {
-  background: #56a3a656;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  margin: 1% 2% 6%;
-}
 .text {
-  margin: 8% 2% 8%;
+  margin: 5% 2% 6%;
   font-size: large;
   text-align: justify;
 }
-.pics img {
+.pics img, .pics2 img  {
   width: 100%;
   margin: 0 auto;
 }
@@ -57,17 +66,23 @@
   text-align: center;
   margin: 0 auto;
 }
+.pics2 {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
 .pics sub {
   color: #27315d;
   font-style: italic;
   font-size: smaller;
 }
+
 .subtitle {
   font-family: "Lexend Deca", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 1.8rem;
   font-style: bold;
-  margin: 4% 2% 4%;
+  margin: 4% 2% 1% 6%;
   color: #101a46;
 }
 .subtitle2 {
@@ -127,6 +142,23 @@ section ul {
 section li {
   margin-bottom: 1%;
 }
+.ref-grid{
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 2%;
+}
+
+.ref p:nth-child(1){
+text-align: center;
+font-weight: bold;
+margin-bottom: 2.5%;
+}
+.vert-bar{
+  content: "";
+  border-left: 1.5px #27315dcb solid ;
+  height: 80%;
+  margin-top: 30px;
+}
 @media (max-width: 970px) {
   .unid {
     margin-top: 19%;
@@ -169,7 +201,7 @@ section li {
   }
   .subtitle {
     font-size: 1.5rem;
-    margin: 3% 1.7% 3.5%;
+    margin: 3% 1.7% 2%;
   }
 }
 .button-cap{
