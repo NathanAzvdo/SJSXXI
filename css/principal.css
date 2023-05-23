@@ -1,3 +1,11 @@
+.title-princ{
+  font-size: 1.8rem;
+  font-family: 'Poppins';
+  font-weight: 700;
+  margin: 2% 5%;
+  color: #7d201b;
+  
+}
 .cards{
   display: flex;
   width: 100%;
@@ -9,7 +17,7 @@
   display: inline-block ;
   position: relative;
   width: 16%;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-shadow: rgba(0, 0, 0, 0.187) 0px 3px 8px;
   border-radius: 5px;
   overflow: hidden;
   cursor: pointer;
@@ -30,6 +38,17 @@
   width: 32%;
   left: 35%;
   top: 20%;
+}
+.hover-button{
+  content: "";
+  left: 0%;
+  color: #f2f2f2;
+  width: 0%;
+  position: absolute;
+  height: 100%;
+}
+button#down-btn:hover .hover-button{
+  width: 100%;
 }
 
 .info-card{
