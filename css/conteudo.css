@@ -57,6 +57,9 @@
   font-size: large;
   text-align: justify;
 }
+.text p{
+  text-indent: 25px;
+}
 .pics img, .pics2 img  {
   width: 100%;
   margin: 0 auto;
