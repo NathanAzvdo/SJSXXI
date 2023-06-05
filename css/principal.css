@@ -15,12 +15,12 @@
 .card{
   display: inline-block;
   position: relative;
-  width: 300px;
-  margin: 1.5% 1.25%;
-  box-shadow: rgba(0, 0, 0, 0.187) 0px 3px 8px;
-  border-radius: 5px;
+  width: 220px;
+  margin: 1.5% 1%;
+  border-radius: 3px;
   overflow: hidden;
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 .cont-card{
   position: absolute;
@@ -38,17 +38,6 @@
   width: 32%;
   left: 35%;
   top: 20%;
-}
-.hover-button{
-  content: "";
-  left: 0%;
-  color: #f2f2f2;
-  width: 0%;
-  position: absolute;
-  height: 100%;
-}
-button#down-btn:hover .hover-button{
-  width: 100%;
 }
 
 .info-card{
@@ -89,30 +78,60 @@ button#down-btn:hover .hover-button{
   bottom: 15%;
   
 }
+.sub-card.down-desc{
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .card:hover .title-card{
 margin-top: 20%;
 color: #fff;
 font-size: 1.3rem;
 }
-.sub-card button{
+.card:hover .title-card.down-title{
+  margin-top: 10%;
+}
+.sub-card #down-btn{
   border-radius: 20px;
   position: relative;
   border: none;
   text-align: left;
-  padding: 5px 10px;
-  width: 78%;
-  height: 6ex;
-  background-color: transparent;
-  font-family: 'Poppins' 'Arial';
-  border: #fff 1.5px solid;
-}
-.sub-card button a{
-  align-items: center;
   display: flex;
+  padding: 1% 2%;
+  width: 78%;
+  height: 5ex;
+  background-color: #24242400;
+  font-family: 'Poppins';
+  border: #fff 1.8px solid;
+  font-size: medium;
+  align-items: center ;
+  justify-content: center;
+}
+#down-btn p{
+  margin: 0%;
+
+}
+.sub-card.down-desc p{
+  margin-bottom: 7%;
+}
+#down-btn .hover-button{
+  content: '';
+  position: absolute;
+  top: 0%;
+  background-color: #fff;
+  width: 00%;
+  height: 100%;
+  left: 0;
+  border-radius: 20px;
+}
+button#down-btn:active .hover-button{
+  width: 100%;
+}
+.sub-card a.down{
   text-decoration: none;
-  color: #fff;
-  font-size: 1.3rem;
-  
+  display: flex;
+  justify-content: center;
 }
 .sub-card div#arrow-button{
   display: flex;
@@ -132,7 +151,7 @@ font-size: 1.3rem;
     text-align: center;
     margin: 0 auto;
     font-family: "Lexend Deca", sans-serif;
-  }
+}
   .download{
     text-align: center;
     margin: 60px;
