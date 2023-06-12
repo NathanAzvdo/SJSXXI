@@ -37,11 +37,14 @@
 }
 .cel{
   float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #ffffff;
   background-color: #d25751;
   width: 1.8rem;
   height: 1.8rem;
-  margin-right: 1.2% ;
+  margin-right: 1% ;
   border-radius: 50%;
   font-size: medium;
   font-weight: bold;
@@ -60,9 +63,13 @@
   font-size: medium;
 }
 .cel2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   float: left;
-  width: 2rem;
-  height: 2rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  margin-left: 3%;
   color: #ffffff;
   background-color: #56a3a6;
   border-radius: 50%;
