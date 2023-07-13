@@ -8,6 +8,25 @@
   color: #161d3b;
   
 }
+.unid-sum a{
+  text-decoration: none;
+  color: #000;
+  font-size: x-large;
+  margin-bottom: 40px;
+  transition: .3s;
+}
+.unid-sum a:hover{
+  transform: scale(1.5);
+}
+.glass-effect-sum{
+  background: #56a3a656;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+  
+}
 .princ-cont{
   display: grid;
   grid-template-columns: .9fr 1fr;
