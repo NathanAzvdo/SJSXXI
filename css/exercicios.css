@@ -6,7 +6,7 @@
   margin: 2% 0% 2% 0%;
   display: inline-block;
 }
-.cards{
+.cards-aut{
   display: flex;
   flex-direction: row;
   margin: 0 auto;
@@ -14,31 +14,31 @@
   justify-content: center;
   gap: 50px
 }
-.card{
+.card-aut{
   width: 45% ;
   flex-direction: column;
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 25px;
 }
-.card img{
+.card-aut img{
   width: 80%;
   margin: 10px auto;
 }
-.card sub{
+.card-aut sub{
   text-align: center;
   font-size: x-large;
   font-weight: bold;
   margin: 5px auto 40px;
 }
 @media(max-width:1000px){
-  .cards{
+  .cards-aut{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 100%;
   }
-  .card{
+  .card-aut{
     width: 90% ;
     flex-direction: column;
     display: flex;
@@ -46,11 +46,11 @@
     padding: 25px;
     margin: 0 auto;
   }
-  .card img{
+  .card-aut img{
     width: 80%;
     margin: 10px auto;
   }
-  .card sub{
+  .card-aut sub{
     text-align: center;
     font-size: x-large;
     font-weight: bold;
